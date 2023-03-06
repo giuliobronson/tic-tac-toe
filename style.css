@@ -9,6 +9,25 @@
     background-color: #FBE7C6;
 }
 
+.title {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.multicolor span:nth-child(3n){
+    color: #A0E7E5;
+}
+
+.multicolor span:nth-child(3n + 1){
+    color: #FFAEBC;
+}
+
+.multicolor span:nth-child(3n + 2){
+    color: #B4F8C8;
+}
+
+
 .container {
     margin: 0 auto;
     display: grid;

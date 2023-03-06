@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.background {
+    background-color: #FBE7C6;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.tile {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.4em;
+    color: #FFAEBC;
+    outline: 2px solid #C38370;
+    cursor: pointer;
+}

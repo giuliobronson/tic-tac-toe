@@ -6,11 +6,12 @@
 }
 
 .background {
+    height: 100vh;
     background-color: #FBE7C6;
 }
 
 .title {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     font-size: 1.6em;
 }
@@ -29,7 +30,7 @@
 
 
 .container {
-    margin: 0 auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -48,4 +49,23 @@
     color: #FFAEBC;
     outline: 2px solid #C38370;
     cursor: pointer;
+}
+
+.display {
+    padding: 50px;
+    text-align: center;
+    color: #947360;
+    font-size: 1.4em;
+}
+
+.display-player {
+    font-weight: bold;
+}
+
+.playerX {
+    color: #FFAEBC;
+}
+
+.playerO {
+    color: #A0E7E5;
 }
